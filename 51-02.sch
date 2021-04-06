@@ -51,7 +51,7 @@ U 1 1 606C98F5
 P 9000 3700
 F 0 "J4" H 9050 4425 50  0000 C CNN
 F 1 "1_DA_Conn_02x14_Counter_Clockwise" H 9050 4426 50  0001 C CNN
-F 2 "01_vtech-snom-footprints:1_DA_PinHeader_2x14_clock-wise_P1.27mm_Vertical" H 9000 3700 50  0001 C CNN
+F 2 "01_vtech-snom-footprints:1-DA_PinHeader_2x14_P2.00mm_Vertical" H 9000 3700 50  0001 C CNN
 F 3 "~" H 9000 3700 50  0001 C CNN
 	1    9000 3700
 	1    0    0    -1  
@@ -62,7 +62,7 @@ U 1 1 606CBD80
 P 2500 3600
 F 0 "J1" H 2550 4325 50  0000 C CNN
 F 1 "1_DA_Conn_02x14_Counter_Clockwise" H 2550 4326 50  0001 C CNN
-F 2 "01_vtech-snom-footprints:1_DA_PinHeader_2x14_clock-wise_P1.27mm_Vertical" H 2500 3600 50  0001 C CNN
+F 2 "01_vtech-snom-footprints:1-DA_PinHeader_2x14_P2.00mm_Vertical" H 2500 3600 50  0001 C CNN
 F 3 "~" H 2500 3600 50  0001 C CNN
 	1    2500 3600
 	1    0    0    -1  
@@ -160,16 +160,14 @@ $EndComp
 $Comp
 L power:GND #PWR04
 U 1 1 606C206E
-P 4800 3650
-F 0 "#PWR04" H 4800 3400 50  0001 C CNN
-F 1 "GND" H 4805 3477 50  0001 C CNN
-F 2 "" H 4800 3650 50  0001 C CNN
-F 3 "" H 4800 3650 50  0001 C CNN
-	1    4800 3650
+P 3800 3650
+F 0 "#PWR04" H 3800 3400 50  0001 C CNN
+F 1 "GND" H 3805 3477 50  0001 C CNN
+F 2 "" H 3800 3650 50  0001 C CNN
+F 3 "" H 3800 3650 50  0001 C CNN
+	1    3800 3650
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	4800 3650 5300 3650
 Text Notes 6500 3700 0    50   ~ 0
 36
 $Comp
@@ -770,4 +768,6 @@ Wire Wire Line
 	6600 1200 6600 1350
 Wire Wire Line
 	8250 1750 8250 1950
+Wire Wire Line
+	3800 3650 5300 3650
 $EndSCHEMATC
