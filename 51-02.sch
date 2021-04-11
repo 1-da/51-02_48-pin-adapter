@@ -4,7 +4,7 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "56-pin-adapter for the 360-clip set and FlashcatUSB XPORT"
+Title "48-pin-adapter for the 360-clip set and FlashcatUSB XPORT"
 Date ""
 Rev "01"
 Comp "1_DA"
@@ -13,28 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L 01_vtech-snom:Conn_01x28_I J2
-U 1 1 606AFD56
-P 5500 3750
-F 0 "J2" H 5500 5200 50  0000 L CNN
-F 1 "Conn_01x28_I" H 5500 2250 50  0001 C CNN
-F 2 "01_vtech-snom-footprints:1_DA_PinHeader_I_1x28_P2.54mm_Vertical" H 5500 3750 50  0001 C CNN
-F 3 "~" H 5500 3750 50  0001 C CNN
-	1    5500 3750
-	1    0    0    -1  
-$EndComp
-$Comp
-L 01_vtech-snom:Conn_01x28_II J3
-U 1 1 606B0E27
-P 6650 3750
-F 0 "J3" H 6568 5175 50  0000 C CNN
-F 1 "Conn_01x28_II" H 6650 2250 50  0001 C CNN
-F 2 "01_vtech-snom-footprints:1_DA_PinHeader_II_1x28_P2.54mm_Vertical" H 6650 3750 50  0001 C CNN
-F 3 "~" H 6650 3750 50  0001 C CNN
-	1    6650 3750
-	-1   0    0    -1  
-$EndComp
 Text Notes 5600 2500 0    50   ~ 0
 1
 Text Notes 5550 4800 0    50   ~ 0
@@ -482,14 +460,6 @@ Text Label 9500 4000 0    50   ~ 0
 IO11
 Text Label 9500 4100 0    50   ~ 0
 IO12
-NoConn ~ 5300 4850
-NoConn ~ 5300 4950
-NoConn ~ 5300 5050
-NoConn ~ 5300 5150
-NoConn ~ 6850 5150
-NoConn ~ 6850 5050
-NoConn ~ 6850 4950
-NoConn ~ 6850 4850
 NoConn ~ 8800 3200
 Wire Wire Line
 	9300 3600 9850 3600
@@ -783,4 +753,26 @@ F 3 "~" H 7200 1150 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7200 1350 7200 1150
+$Comp
+L 01_vtech-snom:Conn_01x24_I J2
+U 1 1 6073CFA6
+P 5500 3750
+F 0 "J2" H 5450 5150 50  0000 L CNN
+F 1 "Conn_01x24_I" H 5500 2250 50  0001 C CNN
+F 2 "01_vtech-snom-footprints:1-DA_PinHeader_I_1x24_P2.54mm_Vertical" H 5500 3750 50  0001 C CNN
+F 3 "~" H 5500 3750 50  0001 C CNN
+	1    5500 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L 01_vtech-snom:Conn_01x24_II J3
+U 1 1 60742D7D
+P 6650 3750
+F 0 "J3" H 6650 5150 50  0000 C CNN
+F 1 "Conn_01x24_II" H 6650 2250 50  0001 C CNN
+F 2 "01_vtech-snom-footprints:1-DA_PinHeader_II_1x24_P2.54mm_Vertical" H 6650 3750 50  0001 C CNN
+F 3 "~" H 6650 3750 50  0001 C CNN
+	1    6650 3750
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC
